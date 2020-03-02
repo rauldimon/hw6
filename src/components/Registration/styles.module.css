@@ -1,0 +1,43 @@
+.registrationForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 300px;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+.registrationForm > label {
+  color: #181818;
+}
+
+.registrationForm .input {
+  border: 1px solid #d3d3d3;
+}
+
+.registrationForm .adress {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.registrationForm button {
+  width: 100%;
+  padding: 10px;
+  background-color: blueviolet;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.registrationForm .myName {
+  border: 1px solid green;
+}
+/*# sourceMappingURL=styles.module.css.map */
